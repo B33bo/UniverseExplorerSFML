@@ -46,7 +46,7 @@ void GetDebugText(sf::Text* object, float dt, sf::View view, sf::RenderWindow* w
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+	sf::RenderWindow window(sf::VideoMode(500, 500), "Space Explorer");
 	sf::Clock deltaClock;
 	sf::Text itemCount = sf::Text();
 	sf::Font font;
